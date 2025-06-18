@@ -24,7 +24,7 @@ from pathlib import Path
 
 if __name__ == "__main__":
 
-    SAM2_PYTHON_PATH = "/home/lixin/miniconda3/envs/sam21/bin/python"
+    SAM2_PYTHON_PATH = "/home/lixin/miniconda3/envs/hsr-data/bin/python"
     METRIC3D_PYTHON_PATH = "/home/lixin/miniconda3/envs/metric3d/bin/python"
     OPENPOSE_PYTHON_PATH = "/usr/bin/python3"
     OPENPOSE_MODEL_PATH = "/home/lixin/softwares/openpose/models/"

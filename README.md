@@ -40,7 +40,7 @@ Clone the repository and its submodules:
 git clone https://github.com/lxxue/HSR-data-preprocessing.git --recursive
 ```
 
-Setup the environment for Grounded-SAM2 and most of the code in this repository:
+Setup the environment for the main repository and `Grounded-SAM2` / `hloc` / `ROMP`:
 ```bash
 conda create -n hsr-data python=3.10
 conda activate hsr-data
@@ -81,13 +81,13 @@ Update python paths in [process_data.py](./process_data.py) and [cmd.sh](./cmd.s
 
 ```python
 # process_data.py
-SAM2_PYTHON_PATH = "/home/lixin/miniconda3/envs/sam21/bin/python"
+SAM2_PYTHON_PATH = "/home/lixin/miniconda3/envs/hsr-data/bin/python"
 METRIC3D_PYTHON_PATH = "/home/lixin/miniconda3/envs/metric3d/bin/python"
 OPENPOSE_PYTHON_PATH = "/usr/bin/python3"
 OPENPOSE_MODEL_PATH = "/home/lixin/softwares/openpose/models/"
 
 # cmd.sh
-SAM2_PYTHON_PATH="/home/lixin/miniconda3/envs/sam21/bin/python"
+SAM2_PYTHON_PATH="/home/lixin/miniconda3/envs/hsr-data/bin/python"
 METRIC3D_PYTHON_PATH="/home/lixin/miniconda3/envs/metric3d/bin/python"
 OPENPOSE_PYTHON_PATH="/usr/bin/python3"
 OPENPOSE_MODEL_PATH="/home/lixin/softwares/openpose/models/"
